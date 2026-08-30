@@ -189,6 +189,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   width: 100%;
   height: clamp(520px, min(34vw, calc(100svh - 270px)), 660px);
   margin: 0;
+  overflow: visible;
   isolation: isolate;
 }
 .hero-portrait-card {
@@ -205,13 +206,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
   box-shadow: 18px 18px 36px #cbd3df, -18px -18px 36px #ffffff;
 }
 .hero-portrait-image {
-  position: absolute;
-  width: 106%;
+  position: absolute !important;
+  inset: 0;
+  width: 100% !important;
   max-width: none;
-  height: 100%;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
+  height: 100% !important;
   object-fit: contain;
   object-position: center bottom;
   filter: drop-shadow(0 20px 24px rgba(87,98,114,.16));
