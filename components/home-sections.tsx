@@ -26,7 +26,7 @@ export function Hero() {
           <div className="hero-portrait-card" aria-hidden="true" />
           <Image
             className="hero-portrait-image"
-            src="/hero-portrait-cutout.png"
+            src="/hero-portrait-full.png"
             alt="Natthapol (NJ) Jinavanich"
             fill
             sizes="(max-width: 640px) 430px, (max-width: 1024px) 560px, 42vw"
