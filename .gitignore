@@ -1,0 +1,5 @@
+node_modules
+.vinext
+.next
+.env*
+.DS_Store
