@@ -28,8 +28,8 @@ export function Hero() {
             className="hero-portrait-image"
             src="/hero-portrait-cutout.png"
             alt="Natthapol (NJ) Jinavanich"
-            width={1365}
-            height={2048}
+            fill
+            sizes="(max-width: 640px) 430px, (max-width: 1024px) 560px, 42vw"
             priority
           />
         </figure>
