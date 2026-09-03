@@ -202,6 +202,7 @@ export const projects: Project[] = [
     client: "Dow joint-venture petrochemical operation / Rayong Terminal",
     location: "Map Ta Phut, Rayong, Thailand",
     period: "2016-2019",
+    detailImage: "/projects/Project02-detail.jpg",
     summary:
       "Design-Build expansion delivered inside an operating petrochemical terminal without a total terminal shutdown.",
     scope: [
