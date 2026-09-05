@@ -162,6 +162,52 @@ export function Education() {
           </div>
         </article>
       </div>
+
+      <aside className="recognition-feature" aria-labelledby="recognition-title">
+        <div className="recognition-intro">
+          <p className="section-kicker">Selected Recognition</p>
+          <h3 id="recognition-title">Cleantech strategy with real-world impact.</h3>
+        </div>
+        <div className="recognition-grid">
+          <a
+            className="recognition-image-link"
+            href="https://www.marshall.usc.edu/posts/marshall-team-places-at-rice-cleantech-innovation-competition"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Read USC Marshall’s article about the Rice Cleantech Innovation Competition"
+          >
+            <Image
+              className="recognition-image"
+              src="/recognition/rice-cleantech-competition.jpg"
+              alt="USC Marshall team at the 2024 Rice Cleantech Innovation Competition"
+              width={1106}
+              height={1106}
+              sizes="(max-width: 980px) 100vw, 38vw"
+            />
+          </a>
+          <div className="recognition-copy">
+            <div className="recognition-result">
+              <strong>Top 5</strong>
+              <span>Rice Business · Houston · 2024</span>
+            </div>
+            <h4>Rice Cleantech Innovation Competition</h4>
+            <p>
+              Placed fifth among 34 business-school teams as part of USC Marshall’s first team to compete at the annual Rice Cleantech Innovation Competition.
+            </p>
+            <p>
+              The team proposed a Vehicle-to-Grid framework for California, combining grid-stability needs, EV-owner incentives, infrastructure economics, and a revenue-sharing business model.
+            </p>
+            <a
+              className="recognition-reference"
+              href="https://www.marshall.usc.edu/posts/marshall-team-places-at-rice-cleantech-innovation-competition"
+              target="_blank"
+              rel="noreferrer"
+            >
+              USC Marshall competition feature <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </aside>
     </section>
   );
 }
